@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./theme/scripts/*"]
+    },
+    "target": "esnext"
+  },
+  "exclude": ["node_modules"]
+}
