@@ -1,7 +1,7 @@
 import { component } from "picoapp"
 
-import getSection from "@/api/sections"
-import { fetchCart, removeItem, updateCart } from "@/lib/cart"
+import getSection from "theme1/scripts/api/sections"
+import { fetchCart, removeItem, updateCart } from "theme1/scripts/lib/cart"
 
 export default component((node, ctx) => {
   const { sectionId } = node.dataset

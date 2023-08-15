@@ -1,6 +1,6 @@
 import { component } from "picoapp"
 
-import { updateItem } from "@/lib/cart"
+import { updateItem } from "theme1/scripts/lib/cart"
 
 export default component((node) => {
   const decrease = node.querySelector("[data-counter-remove]")

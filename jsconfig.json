@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./theme/scripts/*"]
+      "@/*": ["theme1/scripts/*"]
     },
     "target": "esnext"
   },

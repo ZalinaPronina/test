@@ -1,10 +1,10 @@
 import { component } from "picoapp"
 import Swiper, { Pagination } from "swiper/core"
 
-import { addItemById, fetchCart, removeItem } from "@/lib/cart"
-import { formatMoney } from "@/lib/currency"
-import getProductJson from "@/lib/getProductJson"
-import options from "@/lib/options"
+import { addItemById, fetchCart, removeItem } from "theme1/scripts/lib/cart"
+import { formatMoney } from "theme1/scripts/lib/currency"
+import getProductJson from "theme1/scripts/lib/getProductJson"
+import options from "theme1/scripts/lib/options"
 
 Swiper.use([Pagination])
 

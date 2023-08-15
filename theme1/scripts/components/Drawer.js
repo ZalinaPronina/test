@@ -1,4 +1,4 @@
-import app from "@/app"
+import app from "theme1/scripts/app"
 
 export default function drawer(node, id) {
   if (!id) {

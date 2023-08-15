@@ -1,7 +1,7 @@
 import { component } from "picoapp"
 
-import { addItems, clearCart } from "@/lib/cart"
-import { formatMoney } from "@/lib/currency"
+import { addItems, clearCart } from "theme1/scripts/lib/cart"
+import { formatMoney } from "theme1/scripts/lib/currency"
 
 export default component((node, ctx) => {
   const params = new URLSearchParams(window.location.search)

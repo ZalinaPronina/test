@@ -2,8 +2,8 @@ import "../styles/index.css"
 
 import { bind } from "lazim"
 
-import app from "@/app"
-import { Details } from "@/lib/details"
+import app from "theme1/scripts/app"
+import { Details } from "theme1/scripts/lib/details"
 
 bind()
 Details()

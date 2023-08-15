@@ -1,8 +1,8 @@
 import { component } from "picoapp"
 
-import { addItems, clearCart } from "@/lib/cart"
-import getProductJson from "@/lib/getProductJson"
-import options from "@/lib/options"
+import { addItems, clearCart } from "theme1/scripts/lib/cart"
+import getProductJson from "theme1/scripts/lib/getProductJson"
+import options from "theme1/scripts/lib/options"
 
 export default component((node) => {
   let handle

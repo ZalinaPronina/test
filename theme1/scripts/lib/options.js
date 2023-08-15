@@ -1,4 +1,4 @@
-import radio from "@/lib/radio"
+import radio from "theme1/scripts/lib/radio"
 
 export default function productSelection(node, opts) {
   opts = {

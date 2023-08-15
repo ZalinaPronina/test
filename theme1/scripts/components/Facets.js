@@ -1,5 +1,5 @@
-import getSection from "@/api/sections"
-import debounce from "@/lib/debounce"
+import getSection from "theme1/scripts/api/sections"
+import debounce from "theme1/scripts/lib/debounce"
 
 export default function Facets(node, ctx, section) {
   const { sectionId } = section.dataset

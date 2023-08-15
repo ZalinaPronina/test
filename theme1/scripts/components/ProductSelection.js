@@ -1,8 +1,8 @@
 import { component } from "picoapp"
 
-import { formatMoney } from "@/lib/currency"
-import getProductJson from "@/lib/getProductJson"
-import options from "@/lib/options"
+import { formatMoney } from "theme1/scripts/lib/currency"
+import getProductJson from "theme1/scripts/lib/getProductJson"
+import options from "theme1/scripts/lib/options"
 
 export default component((node, ctx) => {
   const opts = options(node)

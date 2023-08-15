@@ -1,6 +1,6 @@
 import { component } from "picoapp"
 
-import { addItemById } from "@/lib/cart"
+import { addItemById } from "theme1/scripts/lib/cart"
 
 export default component((node) => {
   const form = node.querySelector('form[action^="/cart/add"]')
